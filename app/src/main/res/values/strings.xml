@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChatMe</string>
+    <string name="tab_text_1">chats</string>
+    <string name="tab_text_2">contacts</string>
+    <string name="tab1_text">CHATS</string>
+    <string name="tab2_text">CONTACTS</string>
+    <string name="log_out">Log out</string>
+    <string name="message">Type a message</string>
+</resources>

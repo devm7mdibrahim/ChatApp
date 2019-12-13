@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="RightMessageBinding">
+        <variable
+            name="message"
+            type="com.devmohamedibrahim1997.chatdemo.pojo.Message" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{message.message}"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="5dp"
+                android:padding="8dp"
+                android:background="@drawable/background_right" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>
